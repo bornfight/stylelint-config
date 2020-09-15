@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "indentation": [4],
+    "selector-pseudo-class-no-unknown": [true, {
+      "ignorePseudoClasses": ["global", "local", "@include"]
+    }],
+    "max-nesting-depth": [2, {
+      "ignore": ["blockless-at-rules", "pseudo-classes"]
+    }],
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true
+  },
+  "ignoreFiles": [
+    "vendor/**",
+    "front-vendor/**"
+  ]
+}
