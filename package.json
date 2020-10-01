@@ -1,6 +1,6 @@
 {
   "name": "@bornfight/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": ".stylelintrc.json",
   "dependencies": {
     "stylelint-config-standard": "^20.0.0",
