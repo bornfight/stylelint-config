@@ -8,6 +8,6 @@ or
 **In your stylelintrc.json:**
 ```JSON
 {
-  "extends": "@bornifight/stylelint-config",
+  "extends": "@bornfight/stylelint-config",
 }
 ```
