@@ -1,0 +1,12 @@
+{
+  "name": "@bornfight/stylelint-config",
+  "version": "1.0.0",
+  "main": ".stylelintrc.json",
+  "dependencies": {
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.7.2"
+  }
+}
